@@ -141,6 +141,11 @@ const defaultConfig = {
 
     return [
       {
+        source: '/msbuild',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/bm',
         destination: '/?ref=tbm-p',
         permanent: true,
@@ -295,6 +300,11 @@ const defaultConfig = {
       {
         source: '/early-access-program',
         destination: '/docs/introduction/roadmap#join-the-neon-early-access-program',
+        permanent: true,
+      },
+      {
+        source: '/hipaa-compliance-guide',
+        destination: '/docs/security/hipaa',
         permanent: true,
       },
       ...docsRedirects,
